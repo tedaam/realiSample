@@ -1,0 +1,55 @@
+.submit-form {
+  padding: 20px;
+  background: #8e8887;
+  height: 400px;
+  width: 400px;
+}
+
+.number-buttons-con {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  padding: 20px;
+
+  .number-button {
+    width: 60px;
+    text-align: center;
+    padding: 4px;
+    font-size: 20px;
+    border-radius: 5px;
+    background: #3a595b;
+    border: solid 2px cornflowerblue;
+    color: azure;
+  }
+
+  .selected {
+    background: white;
+    border: solid 3px black;
+    color: black;
+  }
+}
+
+.buttons-con {
+  width: 100%;
+  margin-top: 10px;
+  text-align: right;
+  button{
+    margin-left: 10px;
+  }
+}
+
+.content-con {
+  background: white;
+  height: 200px;
+  font-size: x-large;
+  padding: 30px;
+}
+.saved-data{
+  border-radius: 5px;
+  background: #D2FFD2;
+  height: 190px;
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  flex-flow: column;
+}
